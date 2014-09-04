@@ -1,24 +1,26 @@
 {
     "basic": {
         "show_name": "JS SICP 训练营",
-        "id_name":   "js-sicp-boot-camp",
-        "desc": "本训练营的题目来自经典课本SICP，希望通过这个练习，我们可以学会更多的知识",
+        "id_name":"js-sicp-boot-camp",
+        "type": "camps",
+        "desc": "本训练营的题目来自经典课本SICP，希望通过这些练习，我们可以学会更多的知识",
         "target_effect": {
-            "name": "没啥Effect",
-            "desc": "所以这就是充数的，当时设计的不好，非得要加这种东西，所以现在就尴尬了。",
-            "href": "/super_show/index.html"
+            "name": "JS Console",
+            "desc": "JS Console是一个类似于网页JS控制台'console'的页面应用,是本站用来助力JS教学练习的一个助手工具,你可以在里面毫无顾虑的操练JS代码,而没有后顾之忧.",
+            "href": "/super_show/js_console.html"
         },
-        "order": 0,
-        "ico": "/images/CSS_logo.png",
-        "title_ico": "/images/CSS_Basic.png",
-        "version": "1.2"
+        "order": 5,
+        "ico": "/images/JS.PNG",
+        "title_ico": "/images/Javascript.png",
+        "version": "2.0.0"
     },
-    "relevance": {
-        "type": "path",
-        "column": "_id",
-        "index": {
-            "id_name": "js-sicp"
+    "relevance":{
+        "type":"path",
+        "column":"_id",
+        "index":{
+            "id_name":"js-sicp"
         }
     }
 }
+
 
