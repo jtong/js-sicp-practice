@@ -1,4 +1,3 @@
-//假定有1美分,5美分,10美分,25美分,50美分的零钱无限多，试把1美元换成零钱，写一个函数计算有多少种换法。
-function change_one_dollar(){
+function count_change_one_dollar(){
 
 }
