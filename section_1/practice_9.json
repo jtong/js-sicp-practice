@@ -1,5 +1,5 @@
 {
-    "show_name": "打印帕斯卡三角",
+    "show_name": "高阶函数product",
     "type": "normal",
     "point": 200,
 
@@ -12,7 +12,7 @@
     "files": [
         {
             "name": "practice.js",
-            "path": "/javascript_template/section_1/practice_6"
+            "path": "/javascript_template/section_1/practice_9"
         }
     ],
     "runner": {
@@ -20,7 +20,7 @@
         "path": "/javascript_template",
         "type":"terminal",
         "src":"browser",
-        "run_files": ["section_1/practice_6/practice.js", "../specs/section_1/practice_6"]
+        "run_files": ["section_1/practice_9/practice.js", "../specs/section_1/practice_9"]
     },
-    "order": 4
+    "order": 8
 }
