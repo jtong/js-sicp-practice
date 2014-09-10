@@ -1,0 +1,26 @@
+{
+    "show_name": "再通用一点-filter",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "demo.",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/javascript_template",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/javascript_template/section_1/practice_11"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/javascript_template",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["section_1/practice_11/practice.js", "../specs/section_1/practice_11"]
+    },
+    "order": 9
+}
