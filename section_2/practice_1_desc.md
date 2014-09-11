@@ -9,5 +9,7 @@
 形如：
 
     sum(term, a, next, b)
-
-参见SICP P38～39
+    //next函数是a如何递进到b的函数,在形式2中就是通过a++来递进的
+    //term是计算f(a)的函数，在形式2中f(a)就是通过function term(x){return x*x*x;}来计算的
+    //sum是计算f(a)求和的函数
+    
