@@ -1,21 +1,17 @@
 
 describe('practice-1-2', function () {
 
-    beforeEach(function() {
+    it("accumulate int", function () {
+        console.log("sum integer 2,4,6,8,10,true function exec, answer is 30");
+        var sum = filtered_accumulate(function(x){return x%2 == 0},
+            function(x,y){return x+y;}, 0,
+            function(x){return x},1,
+            function(x){return x+1},10);
+
+        console.log("Your function exec,answer is "+sum);
+        expect(sum).toBe(30);
 
     });
-
-    it("should get f of n", function () {
-        expect(f(-1)).toBe(-1);
-        expect(f(0)).toBe(0);
-        expect(f(1)).toBe(1);
-        expect(f(2)).toBe(2);
-        expect(f(3)).toBe(4);
-        expect(f(4)).toBe(11);
-        expect(f(5)).toBe(25);
-
-    });
-
 
 });
 
