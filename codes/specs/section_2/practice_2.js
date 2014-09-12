@@ -1,27 +1,18 @@
 
 describe('practice-1-2', function () {
 
-    beforeEach(function() {
-
+    it("product integer", function () {
+        var y = 1;
+        for(var x = 1;x != 6; x++)
+        {
+            y = 3*x*y;
+        }
+        console.log("true form 1 to 5, term is 3*x, true function exec, answer is " + y);
+        var test_product = product(function(x){return 3*x},1,function(x){return x+1},5);
+        console.log("Your function exec,answer is "+test_product);
+        expect(test_product).toBe(y);
     });
 
-    it("should get fib of n", function () {
-        expect(fib(0)).toBe(0);
-        expect(fib(1)).toBe(1);
-        expect(fib(2)).toBe(1);
-        expect(fib(3)).toBe(2);
-        expect(fib(4)).toBe(3);
-        expect(fib(5)).toBe(5);
-        expect(fib(6)).toBe(8);
-        expect(fib(7)).toBe(13);
-        expect(fib(8)).toBe(21);
-
-    });
-
-    it("todo:多少种的完整表示", function () {
-
-
-    });
 });
 
 
