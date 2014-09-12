@@ -1,38 +1,14 @@
 
 describe('practice-1-6', function () {
 
-    beforeEach(function() {
 
+    it("Newton's method for finding roots", function () {
+        console.log("slove function, x^2 = 4, answer is 2");
+        var answer_x = slove(function(x){return x*x - 4;},0.001);
+        console.log("your function exec, answer is " + answer_x + "diff is " + answer_x*answer_x-4);
+        expect(answer_x*answer_x - 4 < 0.001).toBe(true);
     });
 
-    it("The greatest common divisor， no prime number, num1 > num2", function () {
-        console.log("The Right max common divisor 63 and 70, the answer is 7");
-        var max_div = gcd(63, 70);
-        console.log("Your function max common divisor 63 and 70, the answer is "+max_div);
-        expect(max_div).toBe(7);
-    });
-
-
-    it("The greatest common divisor， no prime number, num2 > num1", function () {
-        console.log("The Right max common divisor 70 and 63, the answer is 7");
-        var max_div = gcd(70, 63);
-        console.log("Your function max common divisor 70 and 63, the answer is "+max_div);
-        expect(max_div).toBe(7);
-    });
-
-    it("The greatest common divisor is 1", function () {
-        console.log("The Right max common divisor 55 and 63, the answer is 1");
-        var max_div = gcd(55, 63);
-        console.log("Your function max common divisor 55 and 63, the answer is "+max_div);
-        expect(max_div).toBe(1);
-    });
-
-    it("The greatest common divisor is 1， two prime number", function () {
-        console.log("The Right max common divisor 3 and 7, the answer is 1");
-        var max_div = gcd(3, 7);
-        console.log("Your function max common divisor 3 and 7, the answer is "+max_div);
-        expect(max_div).toBe(1);
-    });
 
 });
 
