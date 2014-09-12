@@ -1,5 +1,5 @@
-function compose(f, g, x){
-    return f(g(x));
+function slove(fun, iterator , x, dx)
+{
+    if (dx > Math.abs(fun(x))) return x;
+    return slove(fun, iterator, iterator(x),dx);
 }
-
-
