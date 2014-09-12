@@ -1,5 +1,4 @@
-function slove(fun, iterator , x, dx)
+function  slove_iter(check, iterator , fun, x)
 {
-    if (dx > Math.abs(fun(x))) return x;
-    return slove(fun, iterator, iterator(x),dx);
+    if (!check(fun,x)) return slove_iter(check, iterator, fun, iterator(fun,x));
 }
