@@ -1,5 +1,8 @@
-function  slove_iter(check, iterator , fun, x)
+function  slove_iter(check, iterator)
 {
-    if (!check(fun,x)) return slove_iter(check, iterator, fun, iterator(fun,x));
-    else return x;
+    return function(fun,x,dx)
+    {
+        if (!check(fun,x,dx)) return slove_iter(check, iterator, fun, iterator(fun,x,dx));
+        else return x;
+    }
 }
