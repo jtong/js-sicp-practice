@@ -8,8 +8,9 @@ accumulate使用某些更一般性的函数组合起更强大的功能,调用代
 accumulate使用的是与sum和product一样的参数项和范围描述参数，再加上一个（两个参数的）combiner函数和一个null_value参数。其中：
 
 - combiner是描述如何将当前项与前面项的积累结果组合起来
-- null_value是描述所有项用完时的基本值
- 
-请实现accumulate函数，使可以用accumulate函数完成sum和production
+- null_value是描述所有项用完时的基本值, 譬如 
+    
+    if (n==0) return 1;
+    
+ 请实现accumulate函数，使可以用accumulate函数完成sum和production
 
-参见SICP P40 练习1.32

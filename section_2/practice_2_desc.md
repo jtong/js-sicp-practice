@@ -13,4 +13,3 @@ product的调用场景形如：
 
 试用product函数实现阶乘
 
-参见SICP P40 练习1.31

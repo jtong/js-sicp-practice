@@ -1,6 +1,4 @@
     function tag_cf(x, k){
-    
-        console.log("tag_cf");
         return x*tag_b(x,k-1)/tag_a(x, k-1) ;
     }
     
