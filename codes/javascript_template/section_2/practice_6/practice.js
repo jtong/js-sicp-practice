@@ -1,3 +1,3 @@
-function slove(fun, x, dx){
+function solve(fun, x, dx){
 }
 
