@@ -18,7 +18,7 @@
         "type":"path",
         "column":"_id",
         "index":{
-            "id_name":"js-sicp"
+            "id_name":"javascript"
         }
     }
 }
