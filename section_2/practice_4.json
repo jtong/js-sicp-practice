@@ -3,7 +3,7 @@
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "过滤符合我们要求的函数吧，让我们函数拥有过滤功能.",
+    "simple_desc": "过滤函数顾名思义就是过滤出符合我们条件的数字的函数，这节让我们函数更抽象，让他拥有过滤功能.",
     "desc_file": true,
     "answer_file": true,
 
