@@ -3,7 +3,7 @@
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "正整数阶乘指从1乘以2乘以3乘以4一直乘到所要求的数。",
     "desc_file": true,
     "answer_file": true,
 

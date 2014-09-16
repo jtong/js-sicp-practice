@@ -1,9 +1,9 @@
 {
-    "show_name": "算最小公约数",
+    "show_name": "最小公约数",
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "最小公约数是小学数学问题，我们用辗转相除法求解最小公约数.",
     "desc_file": true,
     "answer_file": true,
 

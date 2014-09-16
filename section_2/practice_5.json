@@ -1,9 +1,9 @@
 {
-    "show_name": "正切函数的连分式",
+    "show_name": "连分式",
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "休息一下做一个小练习，让拥有更高逼近速度的连分式来求正切",
     "desc_file": true,
     "answer_file": true,
 

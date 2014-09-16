@@ -1,9 +1,9 @@
 {
-    "show_name": "函数是一等公民",
+    "show_name": "一等公民函数",
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "更高的抽象！把函数作为返回值",
     "desc_file": true,
     "answer_file": true,
 

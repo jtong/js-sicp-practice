@@ -1,9 +1,9 @@
 {
-    "show_name": "再通用一点-filter",
+    "show_name": "再抽象一点",
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "过滤符合我们要求的函数吧，让我们函数拥有过滤功能.",
     "desc_file": true,
     "answer_file": true,
 

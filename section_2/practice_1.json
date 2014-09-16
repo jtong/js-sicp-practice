@@ -1,9 +1,9 @@
 {
-    "show_name": "高级函数sum",
+    "show_name": "高级函数求和",
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "本章起我们引入更抽象的概念，我们通过不断抽象函数来练习自己的抽象能力.",
     "desc_file": true,
     "answer_file": true,
 

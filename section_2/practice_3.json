@@ -1,9 +1,9 @@
 {
-    "show_name": "抽象无止境-高阶函数accumulate",
+    "show_name": "抽象无止境",
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "对的.运算符也是函数，函数也是运算符，我们这节来抽象他",
     "desc_file": true,
     "answer_file": true,
 

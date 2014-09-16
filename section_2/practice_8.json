@@ -3,7 +3,7 @@
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "更抽象的改进，可以让牛顿法解函数作为函数返回，把抽象进行到底",
     "desc_file": true,
     "answer_file": true,
 

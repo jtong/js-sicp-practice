@@ -1,9 +1,9 @@
 {
-    "show_name": "高阶函数product",
+    "show_name": "高阶函数累积",
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "希望能够通过和上节的求和类比，观察到更高一阶的抽象.",
     "desc_file": true,
     "answer_file": true,
 

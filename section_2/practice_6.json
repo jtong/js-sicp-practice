@@ -1,9 +1,9 @@
 {
-    "show_name": "把函数作为返回值-牛顿法",
+    "show_name": "牛顿法解函数",
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "经典中的经典，大师中的大师，牛顿的作品，牛顿法求近似解",
     "desc_file": true,
     "answer_file": true,
 

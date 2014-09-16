@@ -1,9 +1,9 @@
 {
-    "show_name": "打印帕斯卡三角",
+    "show_name": "帕斯卡三角",
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "打印帕斯卡三角是经典问题，它不但可以交给我们递归的思想，还可以学习职责单一原则.",
     "desc_file": true,
     "answer_file": true,
 

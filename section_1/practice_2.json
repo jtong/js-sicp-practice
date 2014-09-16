@@ -3,7 +3,7 @@
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "斐波那契数列指的是：第0项是0，第1项是第一个1，这个数列从第二项开始，每一项都等于前两项之和.",
     "desc_file": true,
     "answer_file": true,
 
