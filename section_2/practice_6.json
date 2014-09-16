@@ -22,5 +22,5 @@
         "src":"browser",
         "run_files": ["section_2/practice_6/practice.js", "../specs/section_2/practice_6"]
     },
-    "order": 9
+    "order": 6
 }
