@@ -9,7 +9,8 @@
 形如：
 
     sum(term, a, next, b)
-    //next函数是a如何递进到b的函数,在“过程2”中就是通过a++来递进的
+    //next函数是a如何递进到b的函数，
+    //在“过程2”中就是通过function next(x){return x++}来递进的。
     //term是关于一个以a为参数的函数，计算完之后得到的值参与整体求和
     //在“过程2”中term(a)就是通过function term(x){return x*x*x;}来得到a的立方
     //sum是把term(a)~term(b)的所有返回值进行求和的函数
