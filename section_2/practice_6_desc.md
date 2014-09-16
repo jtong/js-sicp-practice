@@ -6,7 +6,6 @@ solve返回result,result是正确解的近似值
 其中fun为f(x)这个函数， 
 x是输入的一个用来逼近起始点，我们可以理解他是我们认为接近正确解的值，
 dx是fun(result)－0的误差值，这个误差值小于dx我们认为result是符合我们逼近要求的近似解。
-
 逼近的具体方法，伪代码如下：
 
     diff(x) ＝ (fun(x+dx)-fun(x))/dx;
