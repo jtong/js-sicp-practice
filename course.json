@@ -12,7 +12,7 @@
         "order": 5,
         "ico": "/images/JS.PNG",
         "title_ico": "/images/Javascript.png",
-        "version": "2.0.0.11"
+        "version": "2.0.0.12"
     },
     "relevance":{
         "type":"path",
