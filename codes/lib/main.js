@@ -12,16 +12,31 @@ function runner(load_files) {
         }
     });
 
+
+    var requireQueue = function(modules, callback) {
+        function load(queue, results) {
+            if (queue.length) {
+                require([queue.shift()], function(result) {
+                    results.push(result);
+                    load(queue, results);
+                });
+            } else {
+                callback.apply(null, results);
+            }
+        }
+
+        load(modules, []);
+    };
+
     require(['jasmine', 'boot', 'reporter'], function () {
-        require(load_files, function () {
+        requireQueue(load_files, function () {
             jasmine.getEnv().execute();
         });
     });
 }
 
-require(['jquery', 'underscore'], function () {
+require(['jquery', 'underscore', 'console'], function () {
     $(document).ready(function () {
-        console.log('document on ready');
         if (parent.load_files) {
            return runner(parent.load_files);
         }
