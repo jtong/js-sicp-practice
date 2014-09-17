@@ -20,7 +20,7 @@
         "path": "/javascript_template",
         "type":"terminal",
         "src":"browser",
-        "run_files": ["section_2/practice_8/practice.js", "../specs/section_2/practice_8"]
+        "run_files": ["section_2/practice_7/practice.js", "../specs/section_2/practice_7"]
     },
     "order": 7
 }
